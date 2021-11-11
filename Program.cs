@@ -43,7 +43,6 @@ namespace Image2ASCII
 
 		static void Main(string[] args)
 		{
-			Console.ReadKey();
 
 			FileStream raster = File.OpenRead("imagen.jpeg");
 			var bitmap = new Bitmap(raster);
